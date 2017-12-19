@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/frame_popup"
+    android:scrollbars="none" >
+
+    <com.android.camera.ui.PopupListMenuItem
+        android:id="@+id/popup_menu_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toggle_outer_size"
+        android:orientation="horizontal" />
+
+</FrameLayout>

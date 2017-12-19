@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/surefaceview_cover"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        
+        <ImageView android:id="@+id/img_surfaceview"
+       	   android:layout_height="match_parent"
+           android:layout_width="match_parent"
+           android:scaleType="fitXY"
+        />
+         <ImageView android:id="@+id/img_surfaceview_cover"
+       	   android:layout_height="match_parent"
+           android:layout_width="match_parent"
+           android:scaleType="fitXY"
+        />
+
+ </FrameLayout>
