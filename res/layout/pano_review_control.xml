@@ -28,6 +28,7 @@
         android:scaleType="center"
         style="@style/ReviewControlIcon"
         android:contentDescription="@string/accessibility_review_cancel"
-        android:layout_gravity="center_horizontal|bottom"
+        android:layout_gravity="center_horizontal|right"
+        android:layout_marginTop="-26dp"
         android:src="@drawable/ic_menu_cancel_holo_light" />
 </merge>

@@ -74,7 +74,8 @@
                 android:excludeFromRecents="true"
                 android:launchMode="singleTop"
                 android:configChanges="orientation|screenSize|keyboardHidden"
-                android:parentActivityName="com.android.camera.CameraActivity" >
+                android:parentActivityName="com.android.camera.CameraActivity"
+		android:theme="@android:style/Theme.NoDisplay">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value="com.android.camera.CameraActivity" />
